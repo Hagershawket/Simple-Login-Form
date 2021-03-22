@@ -1,0 +1,100 @@
+*
+	{
+		padding:0;
+		margin:0;
+	}
+body
+	{
+		background-image:url("background.jpg");
+		background-size:cover;
+		
+	}
+.background_Mask
+	{
+		width:1348px;
+		height:811px;
+		background-color:#000000ad;
+	}
+.header
+{
+	width:1348px;
+	height:40px;
+	background-color:white;
+}
+.header ul 
+{
+	text-align:right;
+	position:relative;
+	bottom:130px;
+	right:20px;
+	font-weight:bold;
+	font-size:20px;
+	font-family:serif;
+	
+}
+.header li:hover
+{
+	background-color:#B4CFEC;
+}
+.header li
+{
+	display:inline-block;
+	padding-right:10px;
+}
+.header h1
+{
+	position:relative;
+	bottom:50px;
+	font-family:serif,Arial;
+}
+h1,label,.footer
+	{
+		padding:50px;
+	}
+input
+	{
+		margin:20px 0px 20px 50px;
+	}
+.form h1,input[type="submit"],label,a 
+	{
+		font-family:Arial;
+		color:#B4CFEC;
+	}
+.form
+	{
+		padding:20px;
+		position:relative;
+		left:450px;
+		top:90px;
+		width:450px;
+		height:500px;
+		border:1px solid #000;
+		border-radius:30px;
+		background-color:#00000078;
+		
+	}
+input[type="submit"]
+	{
+		background-color:#B4CFEC;
+		font-weight:bold;
+		font-size:20px;
+		color:#000;
+		width:300px;
+		height:40px;
+		border-radius:30px;
+	}
+.footer
+	{
+		color:white;
+	}
+input[type="text"],input[type="password"]
+{
+	  border: none;  
+	  border-bottom: 2px solid #B4CFEC;
+	  background-color:#00000008; 
+	  padding:10px;
+	  width:60%;
+	  color:#B4CFEC;
+	  
+    
+}
